@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int mai(){
+int variavel;
+
+printf("digite um valor\n");
+scanf("%d", &variavel);
+
+switch (variavel) {
+case 1:
+     printf("Código a ser executado se variável == 1\n");
+break;
+case 2:
+     printf("Código a ser executado se variável == 2\n");
+break;
+  default:
+    printf("Código a ser executado se se a variavel não for 1 ou 2\n");
+
+}
