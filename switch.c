@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int mai(){
-int variavel;
+int main(){
+      int variavel;
 
 printf("digite um valor\n");
 scanf("%d", &variavel);
@@ -15,5 +15,6 @@ case 2:
 break;
   default:
     printf("Código a ser executado se se a variavel não for 1 ou 2\n");
+
 
 }
