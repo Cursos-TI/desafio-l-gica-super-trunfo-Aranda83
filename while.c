@@ -7,7 +7,7 @@ int i = 1;
 // nome da estrutura
 
 
-while (i <= 10)
+while (i <= 20)
 {
 
 printf("%d\n", i);
