@@ -74,7 +74,7 @@ switch (segundo atributo)
     {
 
 case 'A':
-    case "a":
+    case 'a':
     printf("voce escolheu a opção ataque!!\n";
         resultado2 = ataque1 > ataque2 ? 1 : 0;
         break;
@@ -100,16 +100,19 @@ case 'A':
     if (resultado1 && resultado2)
     {
         printf("Parabéns, vove venceu!!\n");
-
-     } else if (resultado1 != resultado2)
-    printf("Empatou!\n");
-    {
-     else {
+    }
+     else if (resultado1 != resultado2)
+     {
+    
+    
+        printf("Empatou!\n");
+     }
+      else {
     
      printf("Infelizmente voce perdeu!\n");
 }
     
-
+}
 
 
 
