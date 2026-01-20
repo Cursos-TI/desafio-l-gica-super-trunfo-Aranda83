@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 int main(){
-     int i = 1;
+     int i = 1;            // Variável
 
-     do {  
+     do 
+     {                     // abre chaves p o código
         
-        printf("%d\n", i);
-        i++;
+        printf("%d\n", i); // executar
+        i++;               // incremento
      
-    } while (i <= 5000);
+    }                      // fecha chaves do código
+    while (i <= 5000);
 
      return 0;
 
